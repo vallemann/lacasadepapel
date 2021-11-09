@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+/*
+
+Header styling
+
+*/
+
+header {
+    border-bottom: white 1px solid;
+}
+
+header > img {
+    display: block;
+    padding: 1rem;
+}
+
+header > a {
+    display: block;
+    align-self: center;
+    color: white;
+    font-size: 2.5em;
+    padding-right: 1rem;
+}
+
+/*
+
+Navbar styling
+
+*/
+
+nav {
+  border-bottom: white 1px solid;
+}
+
+nav > ul {
+    color: white;
+}
+
+nav > ul > li {
+    display: inline;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+nav > ul > li:hover {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  transition: 150ms linear;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.background-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+/*
+
+Layout till olika listor
+
+*/
+
+.ordered-grid {
+  width: 100%;
+  /*height: 100%;*/
+  padding: 1rem;
+}
+
+.text-left > img, .text-right > img {
+  width: 80%;
+}
+
+.small-img {
+  width: 50%!important;
+}
+
+.totop {
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.totop:hover {
+  background-color: rgb(48, 48, 48);
+  color: white;
+  transition: 150ms linear;
+}
